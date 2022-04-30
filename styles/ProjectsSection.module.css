@@ -1,0 +1,13 @@
+.projects {
+  padding-top: 0;
+}
+
+.projects__title {
+  text-transform: uppercase;
+}
+
+.projects__container {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+}
