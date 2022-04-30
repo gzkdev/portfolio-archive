@@ -35,6 +35,7 @@
 .header__menu li:first-child {
   color: var(--color-800);
   display: block;
+  text-transform: uppercase;
 }
 
 .header__menu__list {
