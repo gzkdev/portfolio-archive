@@ -27,9 +27,19 @@
   display: none;
 }
 
+.header__nav a {
+  font-weight: bold;
+  color: var(--color-100);
+  transition: color 400ms;
+}
+
+.header__nav a:hover {
+  color: var(--color-800);
+}
+
 .header__nav ul li {
   list-style: none;
-  margin-left: 2rem;
+  margin-left: 4rem;
   display: inline-block;
 }
 
