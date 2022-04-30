@@ -1,6 +1,7 @@
 @font-face {
   font-family: Satoshi;
   src: url(../assets/fonts/Satoshi-Regular.woff) format("woff");
+  font-weight: normal;
 }
 
 @font-face {
@@ -89,7 +90,7 @@ a {
 }
 
 h2 {
-  font-size: var(--font-s1ze-700);
+  font-size: var(--font-s1ze-600);
 }
 
 section {

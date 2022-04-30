@@ -1,0 +1,41 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__container {
+  max-width: 1000px;
+}
+
+.hero__heading {
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.hero__heading span {
+  display: block;
+}
+
+.hero__heading span:nth-child(2) {
+  color: var(--color-800);
+}
+
+.hero__cta {
+  margin-top: 2rem;
+  display: block;
+  color: var(--color-100);
+  background-color: var(--color-300);
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 4rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 400ms;
+}
+
+.hero__cta:hover {
+  background-color: var(--color-600);
+}
