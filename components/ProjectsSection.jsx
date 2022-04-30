@@ -3,7 +3,7 @@ import { ProjectsData } from "./AppData";
 
 export default function ProjectsSection() {
   return (
-    <section className={styles.projects}>
+    <section id="projects" className={styles.projects}>
       <div className="container">
         <span className={styles.projects__title}>Projects</span>
         <div className={styles.projects__container}>
