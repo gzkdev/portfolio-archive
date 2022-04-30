@@ -1,5 +1,4 @@
 import styles from "../styles/ProjectsSection.module.css";
-
 import { ProjectsData } from "./AppData";
 
 export default function ProjectsSection() {

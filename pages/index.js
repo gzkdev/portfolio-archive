@@ -1,4 +1,5 @@
 import AppHead from '../components/AppHead'
+import ContactSection from '../components/ContactSection'
 import Header from '../components/Header'
 import HeroSection from '../components/HeroSection'
 import Loader from '../components/Loader'
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <ProjectsSection />
+      <ContactSection />
     </>
 
   )
