@@ -17,10 +17,7 @@ export default function HeroSection() {
             Figma. My love for Front-end engineering lies in learning and
             building applications people will actually love to use.
           </p>
-          <a
-            className={styles.hero__cta}
-            href="mailto:ezihegodswill01@gmail.com"
-          >
+          <a className="cta" href="mailto:ezihegodswill01@gmail.com">
             Get in touch
           </a>
         </div>

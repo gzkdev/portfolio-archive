@@ -1,0 +1,19 @@
+.contact__container {
+  width: 100%;
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  font-size: var(--font-s1ze-200);
+}
+
+.contact__heading {
+  margin: 1rem 0 2rem;
+}
+
+.contact__container a {
+  margin: 2rem auto;
+}
