@@ -6,6 +6,7 @@
 @font-face {
   font-family: Satoshi;
   src: url(../assets/fonts/Satoshi-Bold.woff) format("woff");
+  font-weight: bold;
 }
 
 *,
