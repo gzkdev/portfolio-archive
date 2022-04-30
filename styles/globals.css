@@ -27,6 +27,7 @@ html {
   font-size: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  scroll-padding-top: 8rem;
 }
 
 :root {

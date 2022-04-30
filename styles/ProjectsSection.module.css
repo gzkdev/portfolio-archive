@@ -4,6 +4,7 @@
 
 .projects__title {
   text-transform: uppercase;
+  font-size: var(--font-s1ze-200);
 }
 
 .projects__container {
