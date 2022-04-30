@@ -1,6 +1,7 @@
 import styles from "../styles/Header.module.css";
 import Link from "next/link";
 import { useState } from "react";
+import HeaderMenu from "./HeaderMenu";
 
 function Header() {
   const [isToggle, setIsToggle] = useState(false);
@@ -35,10 +36,7 @@ function Header() {
           className={styles.header__menu__btn}
         ></button>
       </div>
-      <div
-        data-toggle={isToggle && "true"}
-        className={styles.header__menu}
-      ></div>
+      <HeaderMenu isToggle={isToggle} />
     </header>
   );
 }
