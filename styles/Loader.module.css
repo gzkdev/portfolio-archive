@@ -20,7 +20,7 @@
 }
 
 .loader span {
-  font-size: var(--font-s1ze-400);
+  font-size: var(--font-s1ze-700);
   transition: opacity 200ms;
 }
 
