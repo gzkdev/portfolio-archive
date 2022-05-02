@@ -4,6 +4,8 @@
 
 .work__container {
   padding: 2rem 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .work__section h2 {

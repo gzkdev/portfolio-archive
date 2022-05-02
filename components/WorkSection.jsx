@@ -4,7 +4,7 @@ import { ProjectsCatalogueData } from "./AppData";
 export default function WorkSection() {
   return (
     <section className={styles.work__section}>
-      <div className="container">
+      <div className={styles.work__container}>
         <h2>Works</h2>
         <p>A catalogue of interesting stuff I&apos;ve built</p>
         <div className={styles.work__catalogue}>
