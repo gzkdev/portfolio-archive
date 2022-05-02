@@ -8,8 +8,8 @@
 }
 
 .about__story {
-  margin: 2rem 0;
-  font-size: var(--font-s1ze-200);
+  margin: 2rem 0 4rem;
+  /* font-size: var(--font-s1ze-200); */
 }
 
 .about__story p {
@@ -19,7 +19,8 @@
 .about__story__link {
   display: block;
   width: fit-content;
-  margin: 1rem 0 2rem 0;
+  font-size: var(--font-s1ze-200);
+  margin: 2rem 0;
   color: var(--color-100);
 }
 
@@ -30,8 +31,15 @@
 
 .about__story__title {
   text-transform: uppercase;
+  font-size: var(--font-s1ze-200);
   display: block;
   margin-bottom: 1rem;
   padding: 1rem 0;
   border-bottom: 1px solid currentColor;
+}
+
+@media (min-width: 900px) {
+  .about__container {
+    padding: 2rem 2rem;
+  }
 }
