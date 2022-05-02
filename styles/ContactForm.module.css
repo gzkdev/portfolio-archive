@@ -1,0 +1,40 @@
+.contact__form__box {
+  margin: 2rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form__box label::after {
+  content: "*";
+  color: var(--color-200);
+  vertical-align: middle;
+  padding: 0.2rem 0.4rem;
+}
+
+.contact__form__box input,
+.contact__form__box textarea {
+  width: 100%;
+  height: min(5rem, 20vh);
+  border: none;
+  outline: none;
+  background-color: var(--color-710);
+  margin-top: 1rem;
+  padding: 0 1rem;
+  font: var(--font-s1ze-200);
+  color: inherit;
+  border-radius: 4px;
+}
+
+.contact__form__box textarea {
+  min-height: 40vh;
+  resize: none;
+  padding: 1rem 1rem;
+}
+
+.contact__form button {
+  border: none;
+  outline: none;
+  font: inherit;
+  cursor: pointer;
+  font-weight: bold;
+}
