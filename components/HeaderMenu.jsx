@@ -17,7 +17,7 @@ function HeaderMenu({ isToggle }) {
             <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
           <li>
             <Link href="/">Resume</Link>

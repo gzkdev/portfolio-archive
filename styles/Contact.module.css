@@ -1,0 +1,7 @@
+.contact__title {
+  text-transform: uppercase;
+  font-size: var(--font-s1ze-200);
+  display: block;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
