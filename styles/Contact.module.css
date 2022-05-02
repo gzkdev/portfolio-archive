@@ -1,7 +1,50 @@
+.contact__container {
+  max-width: 1000px;
+  padding: 2rem 0;
+}
+
+.contact__container h2 {
+  text-transform: capitalize;
+  font-size: var(--font-s1ze-800);
+}
+
 .contact__title {
   text-transform: uppercase;
   font-size: var(--font-s1ze-200);
   display: block;
   margin-bottom: 1rem;
   padding: 1rem 0;
+}
+
+.contact__form__box {
+  margin: 2rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form__box input,
+.contact__form__box textarea {
+  width: 100%;
+  height: min(5rem, 20vh);
+  border: none;
+  outline: none;
+  background-color: var(--color-710);
+  margin-top: 1rem;
+  padding: 0 1rem;
+  font: var(--font-s1ze-200);
+  color: inherit;
+}
+
+.contact__form__box textarea {
+  min-height: 40vh;
+  resize: none;
+  padding: 1rem 1rem;
+}
+
+.contact__container button {
+  border: none;
+  outline: none;
+  font: inherit;
+  cursor: pointer;
+  font-weight: bold;
 }
