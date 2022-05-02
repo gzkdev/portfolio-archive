@@ -47,42 +47,42 @@ export const ProjectsCatalogueData = [
     {
         year: "2021",
         title: "Octomigo",
-        Made_at: "Personal",
-        stack: ["React", "Github API"],
+        context: "Web app",
+        stack: ["React", "Github API", "Styled components"],
         live_url: "https://octomigo.netlify.app"
     },
     {
         year: "2021",
         title: "Minotes",
-        Made_at: "Personal",
-        stack: ["React", "Github API"],
+        context: "Web app",
+        stack: ["React", "Styled components", "Framer motion"],
         live_url: "https://minotes.netlify.app"
     },
     {
         year: "2021",
         title: "Marche",
-        Made_at: "Personal",
+        context: "Landing page website",
         stack: ["HTML", "CSS", "JavaScript"],
         live_url: "https://marche-agency.netlify.app"
     },
     {
         year: "2021",
-        title: "Fiber Landing page",
-        Made_at: "Personal",
+        title: "Fiber ",
+        context: "Landing page website",
         stack: ["HTML", "CSS", "JavaScript"],
         live_url: "https://fiber-ag.netlify.app"
     },
     {
         year: "2021",
         title: "Coinmigo",
-        Made_at: "Personal",
+        context: "Web app",
         stack: ["React", "Coingecko API"],
         live_url: "https://fiber-ag.netlify.app"
     },
     {
         year: "2021",
         title: "Dressr",
-        Made_at: "Personal",
+        context: "Web app/Web shop",
         stack: ["React", "Styled components"],
         live_url: "https://fiber-ag.netlify.app"
     },
