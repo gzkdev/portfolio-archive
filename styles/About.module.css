@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.about__container h2 {
+  font-size: var(--font-s1ze-700);
+}
+
 .about__story {
   margin: 2rem 0 4rem;
   /* font-size: var(--font-s1ze-200); */
