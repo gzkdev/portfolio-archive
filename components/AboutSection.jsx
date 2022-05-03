@@ -28,10 +28,8 @@ export default function AboutSection() {
               hang out with.
             </p>
             <p>
-              I&apos;m from Nigeria which means that sometimes I don&apos;t even
-              need to get high to be high. You will feel the vibe when you are
-              around me <i>I no dey stress am</i> ( I don&apos;t force good
-              vibes).
+              Although I&apos;m naturally introverted, you don&apos;t dare stay
+              bored around me. It just cannot happen, mark it somewhere, Lol.
             </p>
           </div>
 
@@ -66,9 +64,30 @@ export default function AboutSection() {
               I can&apos;t stop talking about.
             </p>
             <p>
-              Also, I try to practice whatever I learn by building out small to
-              medium projects that are littered on my Github account
+              Fast forward to 2021, the long strike by the Academic Union was
+              called off and I went back to school. Around February this period,
+              I took a course on product design and interned at Utiva Inc as a
+              product designer. This experience exposed me to solid UX design
+              principles and helped me develop a better perspective towards
+              building user-focused products as a frontend engineer
             </p>
+            <p>
+              We are now here in 2022, at this point I focus more of my time
+              learning more of React, JavaScript, Math, Computer Science, Data
+              Structures and Algorithms.
+            </p>
+            <p>
+              Also, I practice whatever I learn by building simple to medium
+              sized projects which are littered all over my Github account
+            </p>
+            <a
+              className={styles.about__story__link}
+              href="http://github.com/gzkdev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See my Github
+            </a>
           </div>
 
           <div className={styles.about__story}>
