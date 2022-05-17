@@ -49,6 +49,32 @@
   margin-right: 1rem;
 }
 
+.projects__cta {
+  width: fit-content;
+  display: block;
+  margin: 8rem auto 0;
+  font-size: var(--font-s1ze-200);
+  background-color: var(--color-710);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.projects__cta:hover {
+  color: var(--color-110);
+}
+
+.projects__cta::after {
+  content: "↗";
+  margin-left: 0.5rem;
+  display: inline-block;
+  transform: rotate(-360deg);
+  transition: transform 200ms;
+}
+
+.projects__cta:hover::after {
+  transform: rotate(0);
+}
+
 @media (min-width: 540px) {
   .projects__container {
     --columns: 2;

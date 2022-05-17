@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/ProjectsSection.module.css";
 import { ProjectsData } from "./AppData";
 
@@ -33,6 +34,9 @@ export default function ProjectsSection() {
             </div>
           ))}
         </div>
+        <Link href="/works">
+          <a className={styles.projects__cta}>See Projects Archive</a>
+        </Link>
       </div>
     </section>
   );
