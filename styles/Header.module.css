@@ -4,14 +4,16 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  padding: 1rem 0;
 }
 
 .header__container {
-  width: 100%;
-  min-height: 100px;
+  width: 90%;
   max-width: 1200px;
   font-size: var(--font-s1ze-200);
-  padding: 0 1rem;
+  background-color: var(--color-710);
+  border-radius: 8px;
+  padding: max(2vh, 1rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,22 +31,21 @@
 
 .header__nav a {
   font-weight: bold;
-  color: var(--color-100);
   transition: color 400ms;
 }
 
 .header__nav a:hover {
-  color: var(--color-800);
+  color: var(--color-100);
 }
 
 .header__nav ul li {
   list-style: none;
-  margin-left: 4rem;
+  margin: 0 2rem;
   display: inline-block;
 }
 
 .header__menu__btn {
-  --scale: 64px;
+  --scale: 40px;
   position: relative;
   width: var(--scale);
   height: var(--scale);

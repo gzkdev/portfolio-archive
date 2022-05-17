@@ -9,7 +9,7 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.header__container}>
         <Link href="/">
-          <a className={styles.header__logo}>Godswill</a>
+          <a className={styles.header__logo}>GZK⚡</a>
         </Link>
         <nav className={styles.header__nav}>
           <ul>
