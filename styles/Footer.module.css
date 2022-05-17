@@ -20,7 +20,28 @@
   margin: 1rem 1rem;
 }
 
+.footer__nav__list a {
+  background-color: var(--color-710);
+  min-width: 120px;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+  transition: color 200ms;
+}
+
+.footer__nav__list a:hover {
+  color: var(--color-100);
+}
+.footer__nav__list a:hover::after,
+.footer__nav__list a:active::after {
+  transform: rotate(0);
+}
+
 .footer__nav__list a::after {
   content: "↗";
   margin: 0 0.4rem;
+  display: inline-block;
+  transition: transform 200ms;
+  transform: rotate(-360deg);
 }
