@@ -27,11 +27,12 @@
 }
 
 .projects__item h4 {
-  font-size: var(--font-s1ze-400);
+  font-size: var(--font-s1ze-200);
+  color: var(--color-100);
 }
 
 .projects__item p {
-  margin-bottom: 1rem;
+  margin: 0.5rem 0;
 }
 
 .projects__item a {
