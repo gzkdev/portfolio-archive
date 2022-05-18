@@ -5,8 +5,8 @@ export default function WorkSection() {
   return (
     <section className={styles.work__section}>
       <div className={styles.work__container}>
-        <h2>Works</h2>
-        <p>A catalogue of interesting stuff I&apos;ve built</p>
+        <h2>Projects Archive</h2>
+        <p>A catalogue of interesting stuff I&apos;ve built on the web.</p>
         <div className={styles.work__catalogue}>
           <div className={styles.catalogue__item}>
             <div className={styles.item__year}>Year</div>
