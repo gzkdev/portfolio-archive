@@ -17,6 +17,54 @@ export default function AboutSection() {
             I&apos;m a very cool person that you&apos;d definitely want to be
             hang out with.
           </p>
+          <div className={styles.about__list__container}>
+            <span className={styles.about__title}>
+              I&apos;m available for Opportunities in...
+            </span>
+            <ul className={styles.about__opportunities}>
+              <li>Frontend engineering</li>
+              <li>Open source</li>
+              <li>Product engineering</li>
+              <li>UI development</li>
+              <li>UI design</li>
+              <li>Technical writing</li>
+            </ul>
+          </div>
+
+          <div className={styles.about__list__container}>
+            <span className={styles.about__title}>Languages</span>
+            <ul className={styles.about__opportunities}>
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>JavaScript(ES6)</li>
+              <li>TypeScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+
+          <div className={styles.about__list__container}>
+            <span className={styles.about__title}>Frameworks & Libraries</span>
+            <ul className={styles.about__opportunities}>
+              <li>React</li>
+              <li>NextJS</li>
+              <li>TailwindCSS</li>
+              <li>Framer motion</li>
+              <li>GSAP</li>
+              <li>Express</li>
+            </ul>
+          </div>
+
+          <div className={styles.about__list__container}>
+            <span className={styles.about__title}>Tools</span>
+            <ul className={styles.about__opportunities}>
+              <li>Git/Github</li>
+              <li>Netlify</li>
+              <li>Firebase</li>
+              <li>Vercel</li>
+              <li>NPM</li>
+              <li>Node</li>
+            </ul>
+          </div>
         </div>
         {/* <div className={styles.about__container}>
           <span className={styles.about__title}>About me</span>
