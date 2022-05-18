@@ -2,9 +2,23 @@ import styles from "../styles/About.module.css";
 
 export default function AboutSection() {
   return (
-    <section>
+    <section className={styles.about}>
       <div className="container">
-        <div className={styles.about__container}>
+        <div className="about__intro">
+          <div className={styles.about__thumbnail}></div>
+          <h3 className={styles.about__name}>Godswill Ezihe</h3>
+          <div className={styles.about__details}>
+            <small>Frontend software engineer</small>
+            <button>Follow</button>
+          </div>
+          <p className={styles.about__essay}>
+            I&apos;m in love with making and breaking things and that&apos;s one
+            the reasons I chose to become a software engineer. Naturally,
+            I&apos;m a very cool person that you&apos;d definitely want to be
+            hang out with.
+          </p>
+        </div>
+        {/* <div className={styles.about__container}>
           <span className={styles.about__title}>About me</span>
           <h2>Get to know me</h2>
           <div className={styles.about__story}>
@@ -135,7 +149,7 @@ export default function AboutSection() {
               and build useful software as a frontend engineer
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
