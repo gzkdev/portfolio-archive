@@ -19,9 +19,6 @@ function HeaderMenu({ isToggle }) {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
-          <li>
-            <Link href="/">Resume</Link>
-          </li>
         </ul>
 
         <ul className={styles.header__menu__socials}>
