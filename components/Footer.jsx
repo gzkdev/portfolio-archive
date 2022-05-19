@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className={styles.footer__container}>
-          <div>&copy; 2020 Godswill</div>
+          <div>&copy; {new Date().getFullYear()} Godswill</div>
           <nav>
             <ul className={styles.footer__nav__list}>
               <li>
