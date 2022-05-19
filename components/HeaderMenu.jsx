@@ -8,16 +8,26 @@ function HeaderMenu({ isToggle }) {
         <ul className={styles.header__menu__list}>
           <li>Navigation</li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
           </li>
           <li>
-            <Link href="/works">Work</Link>
+            <Link href="/works">
+              <a>
+                Projects <small>Archive</small>
+              </a>
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
           </li>
         </ul>
 

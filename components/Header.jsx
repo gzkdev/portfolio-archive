@@ -14,16 +14,24 @@ function Header() {
         <nav className={styles.header__nav}>
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li>
-              <Link href="/#projects">Works</Link>
+              <Link href="/#projects">
+                <a>Projects</a>
+              </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
             </li>
           </ul>
         </nav>
