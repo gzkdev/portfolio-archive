@@ -8,7 +8,8 @@ import styles from "../styles/Contact.module.css"
 export default function Contact() {
     return (
         <>
-            <Loader text="Contact" />
+            <Loader text="Contact" chinese="月光
+" />
             <AppHead />
             <Header />
             <section>

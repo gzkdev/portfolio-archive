@@ -8,7 +8,8 @@ import Loader from '../components/Loader'
 export default function About() {
     return (
         <>
-            <Loader text="About" />
+            <Loader text="About me" chinese="关于我
+"/>
             <AppHead />
             <Header />
             <AboutSection />

@@ -8,7 +8,7 @@ import WorkSection from '../components/WorkSection'
 export default function Work() {
     return (
         <>
-            <Loader text="Works" />
+            <Loader text="Projects" chinese="项目" />
             <AppHead />
             <Header />
             <WorkSection />
