@@ -60,6 +60,10 @@
   display: inline-block;
 }
 
+.header__menu__list li small {
+  font-size: var(--font-s1ze-200);
+}
+
 .header__menu__socials li a {
   min-width: 120px;
   text-align: center;
