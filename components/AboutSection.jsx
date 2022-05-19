@@ -65,6 +65,139 @@ export default function AboutSection() {
               <li>Node</li>
             </ul>
           </div>
+          {/* J */}
+          <section className={styles.about__journey}>
+            <h2>My Journey so far...</h2>
+            <div className={styles.journey__story}>
+              <div className={styles.story__icon}>🛠</div>
+              <div className={styles.story__content}>
+                <h4 className={styles.story__title}>Engineering</h4>
+                <small className={styles.story__timeline}>2018 - present</small>
+                <p className={styles.story__text}>
+                  My journey as a software engineer started in 2018 when a close
+                  friend first introduced me to computers. He used to code in
+                  Python (a programming Language) those days and I can&apos;t
+                  forget how amazed I felt the first time I saw things move on
+                  the screen when someone in real life used the command line
+                  interface. At this point, I was seeing him as an Idol but he
+                  didn&apos;t know.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.journey__story}>
+              <div className={styles.story__icon}>🎨</div>
+              <div className={styles.story__content}>
+                <h4 className={styles.story__title}>Design</h4>
+                <small className={styles.story__timeline}>2021 - present</small>
+                <p className={styles.story__text}>
+                  My journey as a software engineer started in 2018 when a close
+                  friend first introduced me to computers. He used to code in
+                  Python (a programming Language) those days and I can&apos;t
+                  forget how amazed I felt the first time I saw things move on
+                  the screen when someone in real life used the command line
+                  interface. At this point, I was seeing him as an Idol but he
+                  didn&apos;t know.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.journey__story}>
+              <div className={styles.story__icon}>🎓</div>
+              <div className={styles.story__content}>
+                <h4 className={styles.story__title}>Academics</h4>
+                <small className={styles.story__timeline}>
+                  2021 - expected 2024
+                </small>
+                <div className={styles.story__text}>
+                  <p>
+                    I have quite an excellent academic record from childhood to
+                    the university. Currently, I&apos;m a 300 level student of
+                    Nnamdi Azikiwe University, Nigeria where I&apos;m studying
+                    Pharmacy (GPA 4.65/5).
+                  </p>
+                  <p>
+                    Going back to high school days, in the year 2017, I
+                    represented my State at the CSN (Chemical Society of
+                    Nigeria) National competition where I unfortunately came
+                    back with nothing at the final round.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.journey__story}>
+              <div className={styles.story__icon}>🧪</div>
+              <div className={styles.story__content}>
+                <h4 className={styles.story__title}>Learning</h4>
+                <small className={styles.story__timeline}>2021 - present</small>
+                <p className={styles.story__text}>
+                  My journey as a software engineer started in 2018 when a close
+                  friend first introduced me to computers. He used to code in
+                  Python (a programming Language) those days and I can&apos;t
+                  forget how amazed I felt the first time I saw things move on
+                  the screen when someone in real life used the command line
+                  interface. At this point, I was seeing him as an Idol but he
+                  didn&apos;t know.
+                </p>
+
+                <div className={styles.story__list_container}>
+                  <span>Learning resources</span>
+                  <ul className={styles.story__list}>
+                    <li>
+                      <a href="#">Web development Full course</a>
+                    </li>
+                    <li>
+                      <a href="#">Intro to Algorithms and Data Structures</a>
+                    </li>
+                    <li>
+                      <a href="#">Algorithms and Data Structures Full course</a>
+                    </li>
+                    <li>
+                      <a href="#">Full stack react course</a>
+                    </li>
+                    <li>
+                      <a href="#">You don&apos;t know JS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.journey__story}>
+              <div className={styles.story__icon}>🎧</div>
+              <div className={styles.story__content}>
+                <h4 className={styles.story__title}>Music</h4>
+                <small className={styles.story__timeline}>2021 - present</small>
+                <p className={styles.story__text}>
+                  My journey as a software engineer started in 2018 when a close
+                  friend first introduced me to computers. He used to code in
+                  Python (a programming Language) those days and I can&apos;t
+                  forget how amazed I felt the first time I saw things move on
+                  the screen when someone in real life used the command line
+                  interface. At this point, I was seeing him as an Idol but he
+                  didn&apos;t know.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.journey__story}>
+              <div className={styles.story__icon}>🎮</div>
+              <div className={styles.story__content}>
+                <h4 className={styles.story__title}>Extras</h4>
+                <small className={styles.story__timeline}>2021 - present</small>
+                <p className={styles.story__text}>
+                  My journey as a software engineer started in 2018 when a close
+                  friend first introduced me to computers. He used to code in
+                  Python (a programming Language) those days and I can&apos;t
+                  forget how amazed I felt the first time I saw things move on
+                  the screen when someone in real life used the command line
+                  interface. At this point, I was seeing him as an Idol but he
+                  didn&apos;t know.
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
         {/* <div className={styles.about__container}>
           <span className={styles.about__title}>About me</span>
