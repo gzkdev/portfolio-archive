@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/Loader.module.css";
 
-function Loader({ text }) {
+function Loader({ text, chinese }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -12,7 +12,8 @@ function Loader({ text }) {
 
   return (
     <div data-loading={!isLoading && "true"} className={styles.loader}>
-      <span>{text}</span>
+      <span>{chinese}</span>
+      <div>{text}</div>
     </div>
   );
 }

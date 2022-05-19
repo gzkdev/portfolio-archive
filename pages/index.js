@@ -9,7 +9,7 @@ import ProjectsSection from '../components/ProjectsSection'
 export default function Home() {
   return (
     <>
-      <Loader text="Holla 👋🏾" />
+      <Loader text="Hello" chinese="你好" />
       <AppHead />
       <Header />
       <HeroSection />

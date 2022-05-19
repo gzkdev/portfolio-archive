@@ -5,6 +5,7 @@
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: var(--color-100);
@@ -20,10 +21,18 @@
 }
 
 .loader span {
+  display: block;
+  transition: opacity 200ms;
+  margin-bottom: 1rem;
+}
+
+.loader div {
+  font-weight: bold;
   font-size: var(--font-s1ze-700);
   transition: opacity 200ms;
 }
 
-.loader[data-loading="true"] span {
+.loader[data-loading="true"] span,
+.loader[data-loading="true"] div {
   opacity: 0;
 }
