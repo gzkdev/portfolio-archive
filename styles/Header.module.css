@@ -13,7 +13,7 @@
   font-size: var(--font-s1ze-200);
   background-color: var(--color-710);
   border-radius: 48px;
-  padding: max(2vh, 1rem);
+  padding: 0.6rem max(2vh, 1rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
