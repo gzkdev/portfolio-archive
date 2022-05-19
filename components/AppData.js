@@ -88,6 +88,28 @@ export const ProjectsCatalogueData = [
     },
 ]
 
+export const OpportunitiesData = {
+    title: `I'm avaible for the Opportunities in...`,
+    list: [
+        "Frontend engineering", "Open source", "Product engineering", "UI development", "UX engineering", "Technical writing"
+    ]
+}
+
+export const SkillsData = [
+    {
+        title: "Languages",
+        list: [`HTML`, `CSS`, `JavaScript(ES6)`, `TypeScript`, `Python`]
+    },
+    {
+        title: "Frameworks & Libraries",
+        list: [`React`, `NextJS`, `TailwindCSS`, `framer motion`, `GSAP`, `Express`]
+    },
+    {
+        title: "Tools",
+        list: [`Git`, `Github`, `Netlify`, `Vercel`, `Firebase`, "NPM", "Node", "Github pages"]
+    }
+]
+
 export const JourneyData = [
     {
         id: 0,
@@ -126,7 +148,7 @@ export const JourneyData = [
         id: 3,
         icon: "🧪",
         title: "Learning",
-        timeline: "Since I was born - till I die",
+        timeline: "Since I was born - everlasting time",
         story: [
             `Software engineering is constantly evolving. This means that as a software engineer, I'm always learning to be proficient in my craft.`,
             `My learning these days are more focused on advanced JavaScript, Data structures, Algorithms, and Design systems. Sometimes, I do Math to stay sharp.`,
@@ -154,7 +176,7 @@ export const JourneyData = [
         id: 4,
         icon: "🎧",
         title: "Music & Relaxation",
-        timeline: "Since I was born - till I die",
+        timeline: "Since I was born - no time near",
         story: [
             `Although I work hard as a software engineer, my life isn't all about coding. I try to avoid burnout most times by finding time to relax.`,
             `Music is one of the things that I enjoy. You will find me streaming music most times. My favorites include rap, lo-fi beats, classical music, RnB and sad instrumental beats.`,
@@ -181,7 +203,7 @@ export const JourneyData = [
         id: 5,
         icon: "🎮",
         title: "Extras",
-        timeline: "From birth - eternity",
+        timeline: "Time stops here",
         story: [
             `I love to stay active and strong. You will find me going to the gym, playing table tennis, video games and seeing movies (something I started doing recently)`,
             `Waittt...I love Animes too. I love everything about them. My favorites include (Naruto, Demon slayer and Attack on titans).`,

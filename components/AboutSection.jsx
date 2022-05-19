@@ -1,5 +1,5 @@
 import styles from "../styles/About.module.css";
-import { JourneyData } from "./AppData";
+import { JourneyData, OpportunitiesData, SkillsData } from "./AppData";
 
 export default function AboutSection() {
   return (
@@ -20,52 +20,34 @@ export default function AboutSection() {
           </p>
           <div className={styles.about__list__container}>
             <span className={styles.about__title}>
-              I&apos;m available for Opportunities in...
+              {OpportunitiesData.title}
             </span>
             <ul className={styles.about__opportunities}>
-              <li>Frontend engineering</li>
-              <li>Open source</li>
-              <li>Product engineering</li>
-              <li>UI development</li>
-              <li>UI design</li>
-              <li>Technical writing</li>
+              {OpportunitiesData.list.map((item) => (
+                <>
+                  <li>{item}</li>
+                </>
+              ))}
             </ul>
           </div>
 
-          <div className={styles.about__list__container}>
-            <span className={styles.about__title}>Languages</span>
-            <ul className={styles.about__opportunities}>
-              <li>HTML</li>
-              <li>CSS/SCSS</li>
-              <li>JavaScript(ES6)</li>
-              <li>TypeScript</li>
-              <li>Python</li>
-            </ul>
-          </div>
-
-          <div className={styles.about__list__container}>
-            <span className={styles.about__title}>Frameworks & Libraries</span>
-            <ul className={styles.about__opportunities}>
-              <li>React</li>
-              <li>NextJS</li>
-              <li>TailwindCSS</li>
-              <li>Framer motion</li>
-              <li>GSAP</li>
-              <li>Express</li>
-            </ul>
-          </div>
-
-          <div className={styles.about__list__container}>
-            <span className={styles.about__title}>Tools</span>
-            <ul className={styles.about__opportunities}>
-              <li>Git/Github</li>
-              <li>Netlify</li>
-              <li>Firebase</li>
-              <li>Vercel</li>
-              <li>NPM</li>
-              <li>Node</li>
-            </ul>
-          </div>
+          <section className={styles.about__journey}>
+            <h2>My skills</h2>
+            {SkillsData.map((type) => (
+              <>
+                <div className={styles.about__list__container}>
+                  <span className={styles.about__title}>{type.title}</span>
+                  <ul className={styles.about__opportunities}>
+                    {type.list.map((item) => (
+                      <>
+                        <li>{item}</li>
+                      </>
+                    ))}
+                  </ul>
+                </div>
+              </>
+            ))}
+          </section>
 
           <section className={styles.about__journey}>
             <h2>My Journey </h2>
