@@ -9,7 +9,10 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.header__container}>
         <Link href="/">
-          <a className={styles.header__logo}>Holla 👋🏾</a>
+          <a className={styles.header__logo}>
+            Hola! / 你好
+            <span>👋🏾</span>
+          </a>
         </Link>
         <nav className={styles.header__nav}>
           <ul>
@@ -26,11 +29,6 @@ function Header() {
             <li>
               <Link href="/about">
                 <a>About</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact">
-                <a>Contact</a>
               </Link>
             </li>
           </ul>
