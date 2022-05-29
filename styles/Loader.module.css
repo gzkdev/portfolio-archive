@@ -24,11 +24,12 @@
   display: block;
   transition: opacity 200ms;
   margin-bottom: 1rem;
+  font-size: var(--font-s1ze-800);
 }
 
 .loader div {
-  font-weight: bold;
-  font-size: var(--font-s1ze-700);
+  text-transform: uppercase;
+  font-size: var(--font-s1ze-400);
   transition: opacity 200ms;
 }
 

@@ -7,13 +7,13 @@ function Loader({ text, chinese }) {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 400);
+    }, 600);
   }, []);
 
   return (
     <div data-loading={!isLoading && "true"} className={styles.loader}>
-      <span>{chinese}</span>
       <div>{text}</div>
+      <span>{chinese}</span>
     </div>
   );
 }
