@@ -13,7 +13,7 @@ function HeaderMenu({ isToggle }) {
             </Link>
           </li>
           <li>
-            <Link href="/works">
+            <Link href="/projects">
               <a>Projects</a>
             </Link>{" "}
           </li>
