@@ -18,7 +18,7 @@
 
 .projects__item {
   background-color: var(--color-710);
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   border-radius: 1.5rem;
   font-size: var(--font-s1ze-200);
   display: flex;

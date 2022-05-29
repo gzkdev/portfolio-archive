@@ -12,9 +12,9 @@ export default function AboutHeader({ data }) {
         </button>
       </div>
       <p className={styles.about__essay}>
-        First of all, I&apos;m human. I&apos;m a software engineer that loves to
-        learn, break and build stuff on the web. Curisoity killed the cat but it
-        turned me into a software engineer.
+        First of all, I&apos;m human then a software engineer. I love to learn,
+        break and build stuff on the web. Curiosity killed the cat but it turned
+        me into a software engineer.
       </p>
       <div className={styles.about__list__container}>
         <span className={styles.about__title}>{data.title}</span>
