@@ -159,15 +159,23 @@ export const JourneyData = [
             items: [
                 {
                     title: "Intro to Data Structures and Algorithms",
-                    url: "https://freecodecamp.org"
+                    url: "https://www.youtube.com/watch?v=zg9ih6SVACc&list=PLexwiR9TsXGC6m_2-IM3vffVsYQlkYvoZ&index=126&t=70s"
                 },
                 {
-                    title: "JavaScript Fundamentals",
-                    url: "https://freecodecamp.org"
+                    title: "JavaScript programming full course",
+                    url: "https://www.youtube.com/watch?v=jS4aFq5-91M"
                 },
                 {
-                    title: "Intro to Web development",
-                    url: "https://freecodecamp.org"
+                    title: "Recursion in programming",
+                    url: "https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=25s"
+                },
+                {
+                    title: "Frontendmasters Web development bootcamp",
+                    url: "https://frontendmasters.com/bootcamp"
+                },
+                {
+                    title: "Complete CSS course",
+                    url: "https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=25s"
                 }
             ]
         }
@@ -187,15 +195,19 @@ export const JourneyData = [
             items: [
                 {
                     title: "Hanto beat maker",
-                    url: "https://freecodecamp.org"
+                    url: "https://www.youtube.com/playlist?list=PLa2kH2O8QpWpsVjmI0fVMajz3GBHlRsgh"
                 },
                 {
-                    title: "Floowww",
-                    url: "https://freecodecamp.org"
+                    title: "Floowww (chill beats)",
+                    url: "https://www.youtube.com/playlist?list=PLexwiR9TsXGDHS-K-1BWwe07cMau-WAuN"
                 },
                 {
-                    title: "Japanese Samurai Lofi",
-                    url: "https://freecodecamp.org"
+                    title: "Sad Lo-fi trap beats",
+                    url: "https://www.youtube.com/playlist?list=PLHRNgEwtFSkRZ0cXOxOxcucDPUZB6KVGS"
+                },
+                {
+                    title: "Zen mode Binuaral instrumentals",
+                    url: "https://youtube.com/playlist?list=PLQ2Wg5HOzACPP2HwdDUmTs4rNC6TjG7-7"
                 }
             ]
         }
