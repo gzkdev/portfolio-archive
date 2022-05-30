@@ -124,7 +124,7 @@ export const JourneyData = [
     },
     {
         id: 1,
-        icon: "🛠",
+        icon: "🔨",
         title: "Engineering",
         timeline: "2018 - present",
         story: [
