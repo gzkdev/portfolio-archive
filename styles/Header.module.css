@@ -111,22 +111,30 @@
   height: 2px;
   border-radius: 4px;
   background-color: currentColor;
-  transition: transform 400ms;
+  transition: 400ms;
 }
 
 .header__menu__btn::before {
+  -moz-transform: translate(0, -4px);
+  -webkit-transform: translate(0, -4px);
   transform: translate(0, -4px);
 }
 
 .header__menu__btn::after {
+  -moz-transform: translate(0, 4px);
+  -webkit-transform: translate(0, 4px);
   transform: translate(0, 4px);
 }
 
 .header__menu__btn[data-toggle="true"]::before {
+  -moz-transform: translate(0, 0) rotate(45deg);
+  -webkit-transform: translate(0, 0) rotate(45deg);
   transform: translate(0, 0) rotate(45deg);
 }
 
 .header__menu__btn[data-toggle="true"]::after {
+  -moz-transform: translate(0, 0) rotate(-45deg);
+  -webkit-transform: translate(0, 0) rotate(-45deg);
   transform: translate(0, 0) rotate(-45deg);
 }
 

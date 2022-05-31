@@ -28,14 +28,14 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code
+                  See Code
                 </a>
               </div>
             </div>
           ))}
         </div>
         <Link href="/works">
-          <a className={styles.projects__cta}>See Projects Archive</a>
+          <a className={styles.projects__cta}>Projects Archive</a>
         </Link>
       </div>
     </section>

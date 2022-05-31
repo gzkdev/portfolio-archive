@@ -41,12 +41,8 @@
 
 .projects__item__link {
   color: var(--color-100);
-}
-
-.projects__item__link::after {
-  content: "↗";
-  margin-left: 0.4rem;
-  margin-right: 1rem;
+  font-weight: 600;
+  margin-right: 2rem;
 }
 
 .projects__cta {
@@ -54,24 +50,33 @@
   display: block;
   margin: 8rem auto 0;
   font-size: var(--font-s1ze-200);
+  color: var(--color-100);
   background-color: var(--color-710);
   padding: 1rem 1rem;
   border-radius: 1rem;
+  font-weight: 600;
+  transition: transform 200ms;
 }
 
 .projects__cta:hover {
-  color: var(--color-110);
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .projects__cta::after {
   content: "↗";
   margin-left: 0.5rem;
   display: inline-block;
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
   transform: rotate(-360deg);
   transition: transform 200ms;
 }
 
 .projects__cta:hover::after {
+  -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
   transform: rotate(0);
 }
 
