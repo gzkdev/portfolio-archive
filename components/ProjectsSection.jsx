@@ -34,7 +34,7 @@ export default function ProjectsSection() {
             </div>
           ))}
         </div>
-        <Link href="/works">
+        <Link href="/projects">
           <a className={styles.projects__cta}>Projects Archive</a>
         </Link>
       </div>
