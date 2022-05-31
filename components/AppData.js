@@ -60,6 +60,13 @@ export const ProjectsCatalogueData = [
     },
     {
         year: "2022",
+        title: "Bottom navigation",
+        context: "interaction, Animation",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: "https://codepen.io/gzkdev/full/LYQWZez"
+    },
+    {
+        year: "2022",
         title: "Fiber ",
         context: "Landing page website",
         stack: ["HTML", "CSS", "JavaScript"],

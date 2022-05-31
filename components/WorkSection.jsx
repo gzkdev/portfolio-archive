@@ -32,7 +32,14 @@ export default function WorkSection() {
                 ))}
               </ul>
               <div className={styles.item__link}>
-                <a href={work.live_url}> ↗</a>
+                <a
+                  href={work.live_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="demo link"
+                >
+                  ↗
+                </a>
               </div>
             </div>
           ))}
