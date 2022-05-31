@@ -29,11 +29,10 @@
 .projects__item h4 {
   font-size: var(--font-s1ze-400);
   color: var(--color-100);
-  margin-bottom: var(--font-s1ze-200);
 }
 
 .projects__item p {
-  margin: 0.5rem 0 1rem;
+  margin: var(--font-s1ze-200) 0 2rem 0;
 }
 
 .projects__item a {

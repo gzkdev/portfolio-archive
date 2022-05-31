@@ -1,17 +1,17 @@
 export const ProjectsData = [
     {
-        name: "Octomigo",
-        description: "Front-end web application to easilty fetch any Github user's profile without visiting the Github website.",
-        live_url: "https://octomigo.netlify.app",
-        repo_url: "https://github.com/",
-        keywords: ["React", "Github API"]
-    },
-    {
         name: "Minotes",
         description: "A progressive front-end web application built for users to make simple notes, edit them and delete them when they need to.",
         live_url: "https://minotes.netlify.app",
         repo_url: "https://github.com/",
         keywords: ["React", "Framer motion"]
+    },
+    {
+        name: "Octomigo",
+        description: "Front-end web application to easilty fetch any Github user's profile without visiting the Github website.",
+        live_url: "https://octomigo.netlify.app",
+        repo_url: "https://github.com/",
+        keywords: ["React", "Github API"]
     },
     {
         name: "Marche",
@@ -27,20 +27,20 @@ export const ProjectsData = [
         repo_url: "https://github.com/",
         keywords: ["HTML", "CSS", "JavaScript"]
     },
-    {
-        name: "Coinmigo",
-        description: "A fronted web application built to help users track real-time cryptocurrency prices and visualize crypto prices changes using the Coingecko API.",
-        live_url: "https://octomigo.netlify.app",
-        repo_url: "https://github.com/",
-        keywords: ["React", "Coingecko API"]
-    },
-    {
-        name: "Dressr",
-        description: "A fronted web application built to help users track real-time cryptocurrency prices and visualize crypto prices changes using the Coingecko API.",
-        live_url: "https://octomigo.netlify.app",
-        repo_url: "https://github.com/",
-        keywords: ["React", "Framer motion"]
-    }
+    // {
+    //     name: "Coinmigo",
+    //     description: "A fronted web application built to help users track real-time cryptocurrency prices and visualize crypto prices changes using the Coingecko API.",
+    //     live_url: "https://octomigo.netlify.app",
+    //     repo_url: "https://github.com/",
+    //     keywords: ["React", "Coingecko API"]
+    // },
+    // {
+    //     name: "Dressr",
+    //     description: "A fronted web application built to help users track real-time cryptocurrency prices and visualize crypto prices changes using the Coingecko API.",
+    //     live_url: "https://octomigo.netlify.app",
+    //     repo_url: "https://github.com/",
+    //     keywords: ["React", "Framer motion"]
+    // }
 ]
 
 export const ProjectsCatalogueData = [

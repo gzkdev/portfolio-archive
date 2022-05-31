@@ -21,7 +21,7 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View
+                  View Project
                 </a>
                 <a
                   href={project.repo_url}
