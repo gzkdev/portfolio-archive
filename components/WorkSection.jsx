@@ -11,9 +11,7 @@ export default function WorkSection() {
           <div className={styles.catalogue__item}>
             <div className={styles.item__year}>Year</div>
             <div className={styles.item__title}>Title</div>
-            <div className={styles.item__location} data-viewport>
-              Type
-            </div>
+            <div data-viewport>Type</div>
             <div className={styles.item__stack} data-viewport>
               Built with
             </div>
@@ -23,10 +21,11 @@ export default function WorkSection() {
           {ProjectsCatalogueData.map((work, index) => (
             <div key={index} className={styles.catalogue__item}>
               <div className={styles.item__year}>{work.year}</div>
-              <div className={styles.item__title}>{work.title}</div>
-              <div className={styles.item__location} data-viewport>
-                {work.context}
+              <div className={styles.item__title}>
+                {work.title}
+                <span>{work.context}</span>
               </div>
+              <div data-viewport>{work.context}</div>
               <ul className={styles.item__stack} data-viewport>
                 {work.stack.map((stack, index) => (
                   <li key={index}>{stack}</li>

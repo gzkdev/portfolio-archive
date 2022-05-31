@@ -48,6 +48,14 @@
   font-weight: bold;
 }
 
+.item__title span {
+  display: block;
+  font-size: var(--font-s1ze-100);
+  margin-top: 0.2rem;
+  font-weight: normal;
+  color: var(--color-120);
+}
+
 .catalogue__item:not(:nth-child(1)) .item__link > a {
   width: 36px;
   height: 36px;
@@ -80,6 +88,11 @@
   .item__title {
     max-width: 200px;
   }
+
+  .item__title span {
+    display: none;
+  }
+
   .catalogue__item > [data-viewport] {
     display: block;
     flex: 1;

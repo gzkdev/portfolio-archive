@@ -26,26 +26,12 @@ export const ProjectsData = [
         live_url: "https://fiber-ag.netlify.app",
         repo_url: "https://github.com/",
         keywords: ["HTML", "CSS", "JavaScript"]
-    },
-    // {
-    //     name: "Coinmigo",
-    //     description: "A fronted web application built to help users track real-time cryptocurrency prices and visualize crypto prices changes using the Coingecko API.",
-    //     live_url: "https://octomigo.netlify.app",
-    //     repo_url: "https://github.com/",
-    //     keywords: ["React", "Coingecko API"]
-    // },
-    // {
-    //     name: "Dressr",
-    //     description: "A fronted web application built to help users track real-time cryptocurrency prices and visualize crypto prices changes using the Coingecko API.",
-    //     live_url: "https://octomigo.netlify.app",
-    //     repo_url: "https://github.com/",
-    //     keywords: ["React", "Framer motion"]
-    // }
+    }
 ]
 
 export const ProjectsCatalogueData = [
     {
-        year: "2021",
+        year: "2022",
         title: "Octomigo",
         context: "Web app",
         stack: ["React", "Github API", "Styled components"],
@@ -53,20 +39,27 @@ export const ProjectsCatalogueData = [
     },
     {
         year: "2021",
+        title: "Bottom navigation",
+        context: "Interaction",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: "https://codepen.io/gzkdev/full/ExQWywZ"
+    },
+    {
+        year: "2022",
         title: "Minotes",
         context: "Web app",
         stack: ["React", "Styled components", "Framer motion"],
         live_url: "https://minotes.netlify.app"
     },
     {
-        year: "2021",
+        year: "2022",
         title: "Marche",
         context: "Landing page website",
         stack: ["HTML", "CSS", "JavaScript"],
         live_url: "https://marche-agency.netlify.app"
     },
     {
-        year: "2021",
+        year: "2022",
         title: "Fiber ",
         context: "Landing page website",
         stack: ["HTML", "CSS", "JavaScript"],
@@ -74,18 +67,103 @@ export const ProjectsCatalogueData = [
     },
     {
         year: "2021",
-        title: "Coinmigo",
-        context: "Web app",
-        stack: ["React", "Coingecko API"],
-        live_url: "https://fiber-ag.netlify.app"
+        title: "Flip card",
+        context: "Interaction",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: "https://codepen.io/gzkdev/full/XWzLPNV"
     },
     {
         year: "2021",
-        title: "Dressr",
-        context: "Web app/Web shop",
-        stack: ["React", "Styled components"],
-        live_url: "https://fiber-ag.netlify.app"
+        title: "Color generator",
+        context: "Animation, web tool",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: "https://codepen.io/gzkdev/full/RwjzJEZ"
     },
+    {
+        year: "2022",
+        title: "Binance logo",
+        context: "CSS art",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/jOZrxPx"
+    },
+    {
+        year: "2022",
+        title: "Chat component",
+        context: "Micro-interaction",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: "https://codepen.io/gzkdev/full/abWQaEx"
+    },
+    {
+        year: "2022",
+        title: "Surreal mini-world",
+        context: "CSS art",
+        stack: ["HTML", "CSS"],
+        live_url: " https://codepen.io/gzkdev/full/eYdWpEW"
+    },
+    {
+        year: "2022",
+        title: "Custom linktree",
+        context: "Web layout",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/RwjxzzK"
+    },
+    {
+        year: "2022",
+        title: "CSS mobile carousel",
+        context: "Micro-interaction",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: "https://codepen.io/gzkdev/full/KKyRqgz"
+    },
+    {
+        year: "2021",
+        title: "CSS Bright morning scene",
+        context: "CSS art",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/PobXbwW"
+    },
+    {
+        year: "2021",
+        title: "Responsive image gallery",
+        context: "Web layout",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/mdWLxGe"
+    },
+    {
+        year: "2021",
+        title: "Fixed CTA on-scroll",
+        context: "Interaction",
+        stack: ["HTML", "CSS", "JavaScript"],
+        live_url: " https://codepen.io/gzkdev/full/GREpeYG"
+    },
+    {
+        year: "2021",
+        title: "Sweet menu bar",
+        context: "Interaction",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/VwKqjGm"
+    },
+    {
+        year: "2020",
+        title: "ID card",
+        context: "CSS art",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/MWjeeqM"
+    },
+    {
+        year: "2020",
+        title: "Sleek card",
+        context: "Interaction, Animation",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/KKgpGRE"
+    },
+    {
+        year: "2020",
+        title: "Pulse",
+        context: "Animation",
+        stack: ["HTML", "CSS"],
+        live_url: "https://codepen.io/gzkdev/full/XWdedLd"
+    },
+
 ]
 
 export const OpportunitiesData = {
