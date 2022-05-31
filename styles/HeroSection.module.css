@@ -19,11 +19,7 @@
 
 .hero__heading span:nth-child(2) {
   color: transparent;
-  background-image: linear-gradient(
-    var(--color-100),
-    var(--color-600),
-    var(--color-200)
-  );
+  background-image: linear-gradient(var(--color-120), var(--color-200));
   -moz-background-clip: text;
   -webkit-background-clip: text;
   background-clip: text;
