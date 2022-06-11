@@ -1,5 +1,6 @@
 import styles from "../styles/WorkSection.module.css";
 import { ProjectsCatalogueData } from "./AppData";
+import { VscLinkExternal } from "react-icons/vsc";
 
 export default function WorkSection() {
   return (
@@ -27,7 +28,7 @@ export default function WorkSection() {
               </div>
               <div data-viewport>{work.context}</div>
               <ul className={styles.item__stack} data-viewport>
-                {work.stack.map((stack, index) => (
+                {work?.stack?.map((stack, index) => (
                   <li key={index}>{stack}</li>
                 ))}
               </ul>
@@ -36,9 +37,9 @@ export default function WorkSection() {
                   href={work.live_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  title="demo link"
+                  title="Project demo link"
                 >
-                  ↗
+                  <VscLinkExternal />
                 </a>
               </div>
             </div>

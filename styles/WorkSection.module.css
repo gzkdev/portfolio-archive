@@ -23,7 +23,8 @@
   width: 100%;
   display: flex;
   align-items: baseline;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
   font-size: var(--font-s1ze-200);
   transition: background-color 200ms;
   border-radius: 8px;
@@ -62,17 +63,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: var(--color-710);
-  transition: 400ms background-color, 300ms transform;
+  -moz-transition: 300ms background-color, 300ms color;
+  -webkit-transition: 300ms background-color, 300ms color;
+  transition: 300ms background-color, 300ms color;
 }
 
-.catalogue__item:not(:nth-child(1)):hover .item__link > * {
+.catalogue__item:not(:nth-child(1)):hover .item__link > a {
   background-color: var(--color-700);
-  transform: rotate(360deg);
-}
-
-.item__link > a:hover {
   color: var(--color-200);
 }
 
@@ -112,11 +111,5 @@
 @media (min-width: 1000px) {
   .item__title {
     max-width: 300px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .item__link {
-    min-width: 144px;
   }
 }
