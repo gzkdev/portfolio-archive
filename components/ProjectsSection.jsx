@@ -11,7 +11,9 @@ export default function ProjectsSection() {
           {ProjectsData.map((project, index) => (
             <div key={index} className={styles.projects__item}>
               <div>
-                <span>{project.type}</span>
+                <span className={styles.project__item__type}>
+                  {project.type}
+                </span>
                 <h4>{project.name}</h4>
                 <ul className={styles.project__tools}>
                   {project?.tools?.map((tool, idx) => (
@@ -31,10 +33,11 @@ export default function ProjectsSection() {
                 </a>
                 <a
                   href={project.repo_url}
+                  className={styles.project__item__code}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  See Code
+                  Code
                 </a>
               </div>
             </div>
