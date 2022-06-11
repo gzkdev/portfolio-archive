@@ -6,8 +6,8 @@ export default function HeroSection() {
       <div className="container">
         <div className={styles.hero__container}>
           <h1 className={styles.hero__heading}>
-            <span>I&apos;m Godswill Ezihe</span>
-            <span>I build Software that run on web browsers</span>
+            <span>I&apos;m Godswill Ezihe,</span>
+            <span>I build Software that run on web browsers.</span>
           </h1>
           <p>
             I&apos;m a Front-end software engineer currently based in Nigeria.
