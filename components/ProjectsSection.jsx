@@ -11,7 +11,13 @@ export default function ProjectsSection() {
           {ProjectsData.map((project, index) => (
             <div key={index} className={styles.projects__item}>
               <div>
+                <span>{project.type}</span>
                 <h4>{project.name}</h4>
+                <ul className={styles.project__tools}>
+                  {project?.tools?.map((tool, idx) => (
+                    <li key={idx}>{tool}</li>
+                  ))}
+                </ul>
                 <p>{project.description}</p>
               </div>
               <div className={styles.projects__item__footer}>

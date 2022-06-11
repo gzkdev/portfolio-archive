@@ -1,6 +1,8 @@
 export const ProjectsData = [
     {
         name: "Minotes",
+        tools: ["React", "Framer motion"],
+        type: "Web app",
         description: "A progressive front-end web application built for users to make simple notes, edit them and delete them when they need to.",
         live_url: "https://minotes.netlify.app",
         repo_url: "https://github.com/gzkdev/minote",
@@ -8,6 +10,8 @@ export const ProjectsData = [
     },
     {
         name: "Octomigo",
+        tools: ["React", "Github API"],
+        type: "Web app",
         description: "Front-end web application to easilty fetch any Github user's profile without visiting the Github website.",
         live_url: "https://octomigo.netlify.app",
         repo_url: "https://github.com/gzkdev/octomigo",
@@ -15,6 +19,8 @@ export const ProjectsData = [
     },
     {
         name: "Marche",
+        tools: ["HTML", "CSS", "JavaScript"],
+        type: "Landing page",
         description: "An outstanding landing page for a digital marketing agency focused on providing excellent digital services that help fuel the growth of modern businesses.",
         live_url: "https://marche-agency.netlify.app",
         repo_url: "https://github.com/gzkdev/marche-digital-agency-landing-page/tree/master",
@@ -22,6 +28,8 @@ export const ProjectsData = [
     },
     {
         name: "Fiber",
+        tools: ["HTML", "CSS", "JavaScript"],
+        type: "Landing page",
         description: "A landing page for an online template marketplace for developers who want a beautiful portfolio template to showcase their projects and apply to jobs.",
         live_url: "https://fiber-ag.netlify.app",
         repo_url: "https://github.com/gzkdev",
