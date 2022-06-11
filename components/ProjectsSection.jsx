@@ -46,7 +46,10 @@ export default function ProjectsSection() {
           ))}
         </div>
         <Link href="/projects">
-          <a className={styles.projects__cta}>Projects Archive</a>
+          <a className={styles.projects__cta}>
+            <VscLinkExternal />
+            &nbsp;&nbsp;See Archive
+          </a>
         </Link>
       </div>
     </section>
