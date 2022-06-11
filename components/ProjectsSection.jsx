@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/ProjectsSection.module.css";
 import { ProjectsData } from "./AppData";
+import { VscGitCompare, VscLinkExternal } from "react-icons/vsc";
 
 export default function ProjectsSection() {
   return (
@@ -29,7 +30,8 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Project
+                  <VscLinkExternal />
+                  &nbsp;&nbsp;View Project
                 </a>
                 <a
                   href={project.repo_url}
@@ -37,7 +39,7 @@ export default function ProjectsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code
+                  <VscGitCompare />
                 </a>
               </div>
             </div>
