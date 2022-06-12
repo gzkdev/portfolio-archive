@@ -57,6 +57,10 @@
   color: var(--color-120);
 }
 
+.item__link {
+  min-width: 80px;
+}
+
 .catalogue__item:not(:nth-child(1)) .item__link > a {
   width: 36px;
   height: 36px;

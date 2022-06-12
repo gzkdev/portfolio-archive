@@ -19,7 +19,7 @@
 .projects__item {
   position: relative;
   background-color: var(--color-710);
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
   font-size: var(--font-s1ze-200);
   display: flex;
@@ -59,7 +59,7 @@
 }
 
 .project__tools li:not(:last-child)::after {
-  content: "🔨";
+  content: "▪";
   display: inline-block;
   margin: 0 4px;
 }
@@ -72,7 +72,7 @@
 }
 
 .projects__item p {
-  margin: var(--font-s1ze-400) 0 2rem 0;
+  margin: 2rem 0;
 }
 
 .projects__item__link {
