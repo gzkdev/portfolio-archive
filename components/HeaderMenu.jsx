@@ -25,7 +25,7 @@ function HeaderMenu({ isToggle }) {
         </ul>
 
         <ul className={styles.header__menu__socials}>
-          <li>Socials</li>
+          <li>Let&apos;s connect</li>
           <li>
             <a
               href="https://twitter.com/gzkdev"
